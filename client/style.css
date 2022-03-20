@@ -1,0 +1,77 @@
+.user {
+  width: 300px;
+  height: 40px;
+  margin: 10px;
+  border-radius: 12px;
+  padding: 10px;
+  font-size: 22px;
+  text-align: center;
+}
+
+.chat {
+  width: 800px;
+  height: 500px;
+  border: 2px solid rgb(84, 133, 84);
+  background-color: rgba(0, 128, 0, 0.116);
+  margin: 10px;
+  border-radius: 12px;
+  overflow-y: scroll;
+}
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(32, 90, 25, 0.644);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(32, 90, 25, 0.459);
+}
+.messages {
+  width: 500px;
+  margin: 10px;
+  border: 2px solid green;
+  background-color: rgba(0, 128, 0, 0.301);
+  border-radius: 12px;
+  padding: 15px;
+  overflow-wrap: break-word;
+}
+.typing {
+  color: rgb(90, 86, 86);
+}
+
+.msg {
+  width: 300px;
+  height: 40px;
+  margin: 10px;
+  border-radius: 12px;
+  padding: 15px;
+  font-size: 22px;
+}
+.send-msg {
+  width: 80px;
+  height: 45px;
+  border-radius: 12px;
+  font-size: 20px;
+  background-color: rgba(0, 128, 0, 0.301);
+  box-shadow: 1px 3px 3px 1px #0000004d;
+}
+.send-msg:hover {
+  background-color: rgba(0, 128, 0, 0.425);
+}
+.send-msg:active {
+  transform: translateY(2px);
+}
+.username {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.text-msg {
+  font-size: 24px;
+}
+.time {
+  font-size: 16px;
+  font-style: italic;
+  font-weight: lighter;
+}
